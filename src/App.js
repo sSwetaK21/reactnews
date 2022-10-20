@@ -1,10 +1,11 @@
 import './App.css';
 import Content from './components/Content';
+import NavComp from './components/NavComp';
 
 function App() {
   return (
     <div className="App">
-      Welcome 
+      <NavComp></NavComp>
       <Content></Content>
     </div>
   );
